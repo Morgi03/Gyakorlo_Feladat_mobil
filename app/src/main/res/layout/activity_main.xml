@@ -41,12 +41,14 @@
         android:textSize="14sp"
         android:id="@+id/veletlenSzin"
         />
+
     <TextView
+        android:id="@+id/showText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/veletlenSzin"
-        android:id="@+id/showText"
         android:textAlignment="center"
+        android:textSize="25sp"
         />
 
 
